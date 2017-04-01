@@ -1,0 +1,21 @@
+{
+    "name": "thinfer/we-redis",
+    "type": "library",
+    "description": "WeRedis is small PHP library to make some fun with Redis",
+    "keywords": ["nosql", "redis", "vazredis", "phpredis", "php"],
+    "authors": [
+        {
+            "name": "Barry Shieh",
+            "email": "seeyagain173@gmail.com",
+            "homepage": "https://github.com/BarryShieh"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thinfer\\": "src/"
+        }
+    }
+}
